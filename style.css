@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.container {
+    height: 850px;
+    width: 100%;
+}
+
+.nav1 {
+    display: flex;
+    background: url("img/starfield-banner.jpg");
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 0.8rem;
+    list-style: none;
+    padding-left: 220px;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    font-weight: normal;
+}
+
+nav ul li {
+    border-left: 1px solid grey;
+    display: flex;
+    height: 50px;
+    padding-left: 15px;
+}
+
+input {
+    margin-left: 2.5rem;
+    background-color: rgb(64, 69, 72);
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.nasa_logo {
+    position: relative;
+    right: 150px;
+}
+
+.nav2 {
+    position: relative;
+    bottom: 45px;
+    background-color: rgb(64, 69, 72);
+    width: 64%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 2px;
+    z-index: 55;
+    margin-left: 14rem;
+    margin-bottom: 5rem;
+}
+
+ul.nav2 li a {
+    background-color: rgb(64, 69, 72);
+    padding-top: 6px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 14px;
+}
+
+ul.nav2 li {
+    border-left: 1px solid grey;
+    background-color: rgb(64, 69, 72);
+    display: flex;
+    height: 30px;
+    padding-left: 15px;
+}
+
+.container2 {
+    width: 1518px;
+    height: 1650px;
+    position: relative;
+    bottom: 37rem;
+    padding: 2.5rem;
+}
+
+.img1 {
+    position: relative;
+    bottom: 2rem;
+    cursor: pointer;
+}
+
+.img2 {
+    position: relative;
+    bottom: 680px;
+    left: 690px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.info_block {
+    border: 1px solid cornflowerblue;
+    background-color: #39719e;
+    width: 320px;
+    height: 320px;
+    position: relative;
+    bottom: 980px;
+    left: 1030px;
+    text-indent: 2rem;
+    padding-top: 1rem;
+}
+
+.img3 {
+    width: 650px;
+    height: 300px;
+    position: relative;
+    bottom: 960px;
+    left: 700px;
+    cursor: pointer;
+}
+
+.img4 {
+    width: 650px;
+    height: 300px;
+    position: relative;
+    bottom: 920px;
+    left: 70px;
+    cursor: pointer;
+}
+
+.img5 {
+    width: 600px;
+    height: 300px;
+    position: relative;
+    bottom: 1220px;
+    left: 420px;
+    cursor: pointer;
+}
+
+.img6 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 1520px;
+    left: 1050px;
+    cursor: pointer;
+}
+
+.img7 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 1480px;
+    left: 80px;
+    cursor: pointer;
+}
+
+
+.img8 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 1780px;
+    left: 730px;
+    cursor: pointer;
+}
+
+.img9 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 2080px;
+    left: 1070px;
+    cursor: pointer;
+}
+
+.img10 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 2380px;
+    left: 390px;
+    cursor: pointer;
+}
+
+.more {
+    background-color: #113470;
+    height: 40px;
+    position: relative;
+    bottom: 2330px;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.logo_nasa_2 {
+    width: 500px;
+    height: 100px;
+    position: relative;
+    bottom: 2300px;
+}
+
+div.logo_nasa_2 p {
+    position: relative;
+    left: 120px;
+    bottom: 95px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.foot {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: #6A95BF;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 2300px;
+}
+
+.foot li {
+    font-size: 13px;
+}
